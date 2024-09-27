@@ -73,3 +73,73 @@ h2 {
   text-align: center;
   max-width: 300px;
 }
+
+.visit-counter {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #555;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#registerForm,
+#signInForm {
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+#registerForm label,
+#signInForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#registerForm input,
+#signInForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#registerForm button,
+#signInForm button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+#registerForm button:hover,
+#signInForm button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-button:hover {
+  color: #ff0000;
+}
